@@ -1,0 +1,18 @@
+disabled_rules:
+  - identifier_name
+  - force_cast
+opt_in_rules:
+  - file_header
+
+excluded:
+  - Package.swift
+
+line_length:
+  warning: 300
+  error: 5000
+file_length:
+  warning: 5000
+  error: 10000
+file_header:
+  required_pattern: |
+                    \/\/ Copyright © \d{4} Blue Jeans Network, Inc\.
